@@ -20,6 +20,7 @@ npm install
 
 3. Edit .env file
  - You need to provide the necessary values in the .env file. Here’s an example:
+   ###
    - To get SESSION_ID, CSRFTOKEN, and DS_USER_ID, open your browser's console (CTRL + SHIFT + I), then navigate to the Application tab.
    - Click on Cookies in the left sidebar and look for the values there.
    ### 
