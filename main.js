@@ -42,6 +42,15 @@ async function unfollow(id) {
       });
       
 
+
+      
+      try {
+          const jsonResponse = JSON.parse(responseText);
+      } catch (error) {
+          return false
+      }
+      
+      
     if (unfollow.ok) {
         try {
             return true  
@@ -108,7 +117,9 @@ async function main() {
                 console.log("✓".green + " User succesfully unfollowed!".white)
                 unfollowed_count++
             } else {
-                console.log("🗙".red + " User succesfully unfollowed!".white)
+                console.log("🗙 ".red + " There was an error in unfollowing user! Probably API Rate Limit".white)
+                console.log("Exiting program!")
+                process.exit(1)
             }
         } console.log("\nUnfollowed " + unfollowed_count.toString().yellow + " users!" )
     } else {  
