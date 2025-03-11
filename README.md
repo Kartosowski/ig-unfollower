@@ -22,7 +22,7 @@ npm install
  - You need to provide the necessary values in the .env file. Here’s an example:
    - To get SESSION_ID, CSRFTOKEN, and DS_USER_ID, open your browser's console (CTRL + SHIFT + I), then navigate to the Application tab.
    - Click on Cookies in the left sidebar and look for the values there.
-   <img width="24px"> 
+   ### 
    <img src="https://github.com/user-attachments/assets/8b4af065-944e-4b60-a2c6-bca88fed89f5" width="600px">
 
 ###
