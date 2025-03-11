@@ -1,0 +1,19 @@
+{
+  "name": "ig-unfollower",
+  "version": "1.0.0",
+  "description": "Unfollow users from Instagram automatically",
+  "license": "MIT",
+  "author": "Kartos (Alex Tuncer)",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js && exit 1"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.38.4",
+    "cli-spinners": "^3.2.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "figlet": "^1.8.0"
+  }
+}
