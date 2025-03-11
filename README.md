@@ -1,2 +1,7 @@
 # ig-unfollower
-Unfollow users from Instagram automatically
+```
+npm install
+```
+```
+npm run start
+```
