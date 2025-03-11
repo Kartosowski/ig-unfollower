@@ -33,3 +33,6 @@ npm install
 ```bash
 npm run start
 ```
+
+# Information
+The max count of fetching users is 200 per request
