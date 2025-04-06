@@ -41,16 +41,6 @@ async function unfollow(id) {
         "method": "POST"
       });
       
-
-
-      
-      try {
-          const jsonResponse = JSON.parse(responseText);
-      } catch (error) {
-          return false
-      }
-      
-      
     if (unfollow.ok) {
         try {
             return true  
